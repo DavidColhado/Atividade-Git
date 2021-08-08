@@ -11,7 +11,14 @@ cout<< "Digite o operador:";
 cin>> op;
 cout<< "Digite um numero:";
 cin>> b;
-	
+	switch((op))
+	{
+    case '+':
+	resp= a+b;
+	         break;
+    case '-':
+	resp= a-b;
+	         break;
 	
 	
 	
