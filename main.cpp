@@ -25,7 +25,17 @@ cin>> b;
     case '/':
     if(b==0)
         resp=0;
-	
+	else
+        resp= a/b;
+                break;  
+    default:
+    cout<< "Operador  não contemplado";
+               break;
+}
+cout<< resp;
+retur n0;
+
+}
 	
 	
 	
