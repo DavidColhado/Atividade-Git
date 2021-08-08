@@ -19,6 +19,12 @@ cin>> b;
     case '-':
 	resp= a-b;
 	         break;
+    case '*':
+        resp= a*b;
+             break;
+    case '/':
+    if(b==0)
+        resp=0;
 	
 	
 	
